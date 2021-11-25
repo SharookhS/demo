@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-15T13:54:16 GMT" name="Devops" finished-at="2021-11-15T13:54:28 GMT" duration-ms="11921">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRunTestNG1$PositiveTest@7334aada]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-11-15T13:54:16 GMT" name="Test1" finished-at="2021-11-15T13:54:28 GMT" duration-ms="11921">
+      <class name="parallel.ParallelRunTestNG1$PositiveTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:parallel.ParallelRunTestNG1$PositiveTest@7334aada]" started-at="2021-11-15T13:54:16 GMT" name="setUpClass" finished-at="2021-11-15T13:54:17 GMT" duration-ms="1032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRunTestNG1$PositiveTest@7334aada]" started-at="2021-11-15T13:54:17 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-15T13:54:25 GMT" duration-ms="8122" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["All Tours page redirection"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate All Tours page]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.apache.log4j.Logger.info(Object)" because "pages.actions.HomePageActions.LOGGER" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.log4j.Logger.info(Object)" because "pages.actions.HomePageActions.LOGGER" is null
+at pages.actions.HomePageActions.clickAllToursSubMenuButton(HomePageActions.java:30)
+at parallel.AllToursSteps.i_click_on_all_tours_menu_link(AllToursSteps.java:32)
+at ✽.I click on All Tours menu link(file:///C:/Users/sharo/eclipse-workspace/DevOpsDocker/src/test/resources/FeatureFiles/Suite2/AllTours.feature:32)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRunTestNG1$PositiveTest@7334aada]" started-at="2021-11-15T13:54:17 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-15T13:54:24 GMT" duration-ms="7522" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["All Tours page redirection"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate All Tours page]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.apache.log4j.Logger.info(Object)" because "pages.actions.HomePageActions.LOGGER" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.log4j.Logger.info(Object)" because "pages.actions.HomePageActions.LOGGER" is null
+at pages.actions.HomePageActions.clickAllToursSubMenuButton(HomePageActions.java:30)
+at parallel.AllToursSteps.i_click_on_all_tours_menu_link(AllToursSteps.java:32)
+at ✽.I click on All Tours menu link(file:///C:/Users/sharo/eclipse-workspace/DevOpsDocker/src/test/resources/FeatureFiles/Suite2/AllTours.feature:26)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRunTestNG1$PositiveTest@7334aada]" started-at="2021-11-15T13:54:17 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-15T13:54:25 GMT" duration-ms="7875" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["All Tours page redirection"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate All Tours page]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.apache.log4j.Logger.info(Object)" because "pages.actions.HomePageActions.LOGGER" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.log4j.Logger.info(Object)" because "pages.actions.HomePageActions.LOGGER" is null
+at pages.actions.HomePageActions.clickAllToursSubMenuButton(HomePageActions.java:30)
+at parallel.AllToursSteps.i_click_on_all_tours_menu_link(AllToursSteps.java:32)
+at ✽.I click on All Tours menu link(file:///C:/Users/sharo/eclipse-workspace/DevOpsDocker/src/test/resources/FeatureFiles/Suite2/AllTours.feature:38)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:parallel.ParallelRunTestNG1$PositiveTest@7334aada]" started-at="2021-11-15T13:54:25 GMT" name="tearDownClass" finished-at="2021-11-15T13:54:28 GMT" duration-ms="2702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- parallel.ParallelRunTestNG1$PositiveTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Devops -->
+</testng-results>

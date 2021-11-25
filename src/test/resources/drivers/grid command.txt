@@ -1,0 +1,9 @@
+Standlone Mode:
+
+java -jar selenium-server-4.0.0.jar standalone
+
+Hub and Node:(Hub and node at local machine)
+
+java -jar selenium-server-4.0.0.jar -role hub
+
+java -jar selenium-server-standalone-<version>.jar -role node --detect-drivers
